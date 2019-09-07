@@ -8,6 +8,7 @@ There are two main types of BVH builders:
 I note that that this brief summary is a broad description of BVH construction methods.
 This is a rich area of computer graphics research.
 
+
 ## BVH Quality
 Several metrics for measuring the quality of a BVH have been used over the years,
 but the main metric is called the [Surface Area Heuristic](https://link.springer.com/article/10.1007/BF01911006) (SAH).
@@ -75,3 +76,7 @@ re-order the topology of sub-trees considering the SAH. The treelet restructurin
 does just that. The TRBVH takes mutliple bottom up passes, and each pass increases the overall quality
 of the BVH. The result can achieve about 98% if the quality of a high quality top down builder, while
 achieving interactive construction speeds.
+
+## Resources
+- [pbr](http://www.pbr-book.org/3ed-2018/Primitives_and_Intersection_Acceleration/Bounding_Volume_Hierarchies.html)
+- [wiki](https://en.wikipedia.org/wiki/Bounding_volume_hierarchy)
