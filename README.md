@@ -1,1 +1,3 @@
-Hello World2
+Hello World
+
+[BVH Construction Primer](bvh_construction)
